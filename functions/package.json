@@ -9,14 +9,15 @@
     "generate-readme": "firebase ext:info .. --markdown > ../README.md"
   },
   "engines": {
-    "node": "10"
+    "node": "14"
   },
   "author": "Taeho Kim <jyte82@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "es6-promise-pool": "^2.5.0",
-    "firebase-admin": "^8.0.0",
-    "firebase-functions": "^3.9.0"
+    "firebase-admin": "^9.8.0",
+    "firebase-functions": "^3.15.4",
+    "@types/express-serve-static-core": "^4.17.21"
   },
   "devDependencies": {
     "rimraf": "^2.6.3",
